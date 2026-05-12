@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <meta name="description" content="WDD231">
+    <meta name="Author" content="Anthony Lozano">
+
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/large.css">
+
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>Anthony Lozano logo</span>
+            <button id="menu"></button>
+
+        </div>
+
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Chamber</a>
+            <a href="#">Final</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+    
+        <div class="cards">
+    
+            <section class="card">
+                <h2>About Me</h2>
+    
+                <p>
+                    Hello! My name is Anthony Lozano. Im from Danli, Honduras.
+                    I am learning Software Development and trying to enjoy HTML,
+                    CSS and JavaScript.
+                </p>
+            </section>
+    
+            <section class="card">
+                <h2>Student</h2>
+    
+                <img src="images/studentphoto.webp" alt="Anthony Lozano" width="200" loading="lazy">
+            </section>
+    
+        </div>
+    
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+    
+            <div class="buttons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+    
+            <div id="course-container"></div>
+    
+            <p id="credits"></p>
+        </section>
+    
+    </main>
+
+    <footer>
+
+        <div class=" social">
+            <a href="https://www.linkedin.com/in/anthony-lozano-7068151a7" target="_blank">Linkedin</a>
+            <a href="#">Github</a>
+        </div>
+
+        <p>
+            © <span id="currentyear"></span> Anthony Lozano - Honduras
+        </p>
+
+        <p id="lastModified"></p>
+
+
+
+    </footer>
+    
+</body>
+</html>
