@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Danli Coffee",
+        "address": "Danli, Honduras",
+        "phone": "+504 9999-1111",
+        "website": "https://example.com",
+        "image": "images/tech.webp",
+        "membership": "Gold"
+    },
+    {
+        "name": "Tech Solutions",
+        "address": "Tegucigalpa, Honduras",
+        "phone": "+504 9888-2222",
+        "website": "https://example.com",
+        "image": "images/tech.webp",
+        "membership": "Silver"
+    },
+    {
+        "name": "Lozano Bakery",
+        "address": "Danli, Honduras",
+        "phone": "+504 9777-3333",
+        "website": "https://example.com",
+        "image": "images/tech.webp",
+        "membership": "Bronze"
+    },
+    {
+        "name": "Honduras Market",
+        "address": "Choluteca, Honduras",
+        "phone": "+504 9666-4444",
+        "website": "https://example.com",
+        "image": "images/tech.webp",
+        "membership": "Gold"
+    },
+    {
+        "name": "Creative Studio",
+        "address": "Danli, Honduras",
+        "phone": "+504 9555-5555",
+        "website": "https://example.com",
+        "image": "images/tech.webp",
+        "membership": "Silver"
+    },
+    {
+        "name": "Mountain Tours",
+        "address": "Olancho, Honduras",
+        "phone": "+504 9444-6666",
+        "website": "https://example.com",
+        "image": "images/tech.webp",
+        "membership": "Bronze"
+    },
+    {
+        "name": "Fresh Food",
+        "address": "Danli, Honduras",
+        "phone": "+504 9333-7777",
+        "website": "https://example.com",
+        "image": "images/tech.webp",
+        "membership": "Gold"
+    }
+]
