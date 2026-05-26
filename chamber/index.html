@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danlí Chamber Home</title>
+    <meta name="description" content="Danli Chamber Home Page">
+    <meta name="author" content="Anthony Lozano">
+
+    <meta property="og:title" content="Danli Chamber Home">
+    <meta property="og:description" content="Explore local businesses, events, and opportunities with the Danli Chamber of Commerce.">
+    <meta property="og:image" content="https://anmaloma.github.io/wdd231/chamber/images/hero.webp">
+    <meta property="og:url" content="https://anmaloma.github.io/wdd231/chamber/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <script src="scripts/home.js" defer></script>
+    <link rel="icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="top-bar">
+
+            <h1>Danlí Chamber Home</h1>
+
+            <button id="menu" aria-label="Open Menu"></button>
+
+        </div>
+
+        <nav class="navigation">
+
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Danli Chamber Home</h1>
+
+        <section class="hero">
+
+            <img src="images/hero.webp" alt="Danli Chamber Hero Image">
+
+            <a href="#" class="cta-button">
+
+                Join the Chamber
+
+            </a>
+
+        </section>
+
+        <section class="home-grid">
+
+            <section class="events">
+
+                <h2>Current Events</h2>
+
+                <p>
+                    Join our local business
+                    event this Friday in Danlí, El Paraiso.
+                </p>
+
+            </section>
+
+            <section class="weather">
+
+                <h2>Weather</h2>
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <div id="forecast"></div>
+
+            </section>
+
+            <section class="spotlights">
+
+                <h2>Company Spotlights</h2>
+
+                <div id="spotlight-container"></div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © <span id="currentyear"></span>
+            Anthony Lozano | Honduras
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>
