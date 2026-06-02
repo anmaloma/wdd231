@@ -1,0 +1,27 @@
+@media screen and (min-width:768px) {
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: start;
+        }
+    
+        .spotlights {
+            height: auto;
+        }
+    .hero img {
+        max-height: 500px;
+        object-fit: cover;
+    }
+}
