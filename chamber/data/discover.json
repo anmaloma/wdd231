@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Danlí Cathedral",
+        "address": "Central Park, Danlí",
+        "description": "Historic Catholic cathedral located in the center of Danlí.",
+        "image": "images/catedral.webp"
+    },
+    {
+        "name": "Cerro Apagüiz",
+        "address": "Danlí Mountains",
+        "description": "Beautiful mountain area with scenic views and hiking opportunities.",
+        "image": "images/cerro.webp"
+    },
+    {
+        "name": "Marcelo Tinoco Stadium",
+        "address": "Danlí, El Paraíso",
+        "description": "Main sports venue hosting football matches and community events.",
+        "image": "images/estadio.webp"
+    },
+    {
+        "name": "Municipal Market",
+        "address": "Downtown Danlí",
+        "description": "Popular market offering local products, food, and crafts.",
+        "image": "images/mercado.webp"
+    },
+    {
+        "name": "El Obelisco",
+        "address": "Danlí Entrance",
+        "description": "One of the most recognizable landmarks welcoming visitors.",
+        "image": "images/obelisco.webp"
+    },
+    {
+        "name": "Central Park",
+        "address": "Danlí City Center",
+        "description": "A gathering place for families, visitors, and community events.",
+        "image": "images/parque.webp"
+    },
+    {
+        "name": "Children's Park",
+        "address": "Danlí",
+        "description": "Family-friendly recreation area with playgrounds and green spaces.",
+        "image": "images/parqueinfantil.webp"
+    },
+    {
+        "name": "UNICAH Danlí",
+        "address": "Danlí, Honduras",
+        "description": "Catholic university campus serving students in the region.",
+        "image": "images/unicah.webp"
+    }
+]
