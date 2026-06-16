@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reservation | Tony's Sport</title>
+
+    <meta name="description" content="Reserve your soccer field online quickly and easily with Tony's Sport.">
+
+    <meta name="author" content="Anthony Lozano">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Reservation | Tony's Sport">
+
+    <meta property="og:description" content="Reserve your soccer field online quickly and easily with Tony's Sport.">
+
+    <meta property="og:image" content="https://anmaloma.github.io/wdd231/finalproject/images/hero.jpg">
+
+    <meta property="og:url" content="https://anmaloma.github.io/wdd231/finalproject/reservation.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <a href="index.html" class="logo">
+                Tony's Sport
+            </a>
+        </h1>
+
+        <button id="menu-button">☰</button>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fields.html">Fields</a></li>
+                <li><a href="reservation.html" class="active">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="form-section">
+
+            <h2>Reserve Your Field</h2>
+
+            <form action="thanks.html" method="get">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="field">Field</label>
+                <select id="field" name="field" required>
+
+                    <option value="">Select a field</option>
+                    <option value="Field 1">Field 1</option>
+                    <option value="Field 2">Field 2</option>
+                    <option value="Field 3">Field 3</option>
+                    <option value="Field 4">Field 4</option>
+                    <option value="Field 5">Field 5</option>
+                </select>
+
+                <button type="submit" class="btn">
+                    Reserve Now
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tony's Sport | Anthony Lozano</p>
+        <a href="attributions.html">Attributions</a>
+    </footer>
+
+    <script src="scripts/menu.js"></script>
+
+
+</body>
+
+</html>
